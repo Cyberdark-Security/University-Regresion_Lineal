@@ -1,57 +1,44 @@
-# 🚀 Proyecto de Regresión Lineal
+# 📉 Análisis de Regresión Lineal
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine--Learning-Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn)
+![Data Analysis](https://img.shields.io/badge/Data--Analysis-Pandas-150458?style=for-the-badge&logo=pandas)
 
-Este repositorio contiene una implementación completa y didáctica de un modelo de **Regresión Lineal** para predecir precios basados en metros cuadrados.
+## 🎯 Propósito del Proyecto
+
+Este repositorio tiene como objetivo principal proporcionar un entorno de aprendizaje y experimentación sobre la **Regresión Lineal**. A través de diversos notebooks y un dataset práctico, se busca demostrar cómo modelar la relación entre variables (en este caso, metros cuadrados y precio) para realizar predicciones precisas.
+
+Es un recurso ideal para estudiantes y profesionales que deseen comprender los fundamentos del aprendizaje supervisado y la implementación técnica en Python.
 
 ---
 
-## 📋 Contenido del Repositorio
+## 📂 Estructura del Repositorio
 
-| Archivo | Descripción |
+| Recurso | Función |
 | :--- | :--- |
-| 📊 `Dataset_Regresion_Lineal.csv` | Datos de entrenamiento (Metros vs Precio). |
-| 📓 `RegresionLineal.ipynb` | Implementación principal del modelo. |
-| 🔍 `RegresionLineal (Analisis).ipynb` | Análisis estadístico y métricas de error. |
-| 🧪 `Etapa5.ipynb` | Evaluación con conjuntos de Train/Test. |
-| 📋 `INFORME.md` | Análisis detallado y propuestas de mejora. |
+| 📊 `Dataset_Regresion_Lineal.csv` | Conjunto de datos base para los modelos. |
+| 📓 `RegresionLineal.ipynb` | Implementación de regresión lineal simple. |
+| 🔍 `RegresionLineal (Analisis).ipynb` | Análisis profundo de métricas y estadísticas. |
+| 🧪 `Etapa5.ipynb` | Pruebas de validación y división de datos. |
 
 ---
 
-## 🛠️ Instalación y Uso
+## ⚙️ Requisitos Previos
 
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+Para ejecutar los ejemplos, asegúrate de tener instalado Python y las librerías necesarias:
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone <url-del-repo>
-   ```
-
-2. **Instalar dependencias:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Ejecutar los Notebooks:**
-   Abre Jupyter Notebook o VS Code y ejecuta cualquier archivo `.ipynb`.
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-## 💡 Mejoras Recientes
+## 🚀 Cómo Empezar
 
-✅ **Rutas Relativas:** El código ahora es portátil y funciona en cualquier carpeta.
-✅ **Robustez:** Se añadió manejo de errores en la carga de archivos.
-✅ **Documentación:** Informe detallado de seguridad y desarrollo incluido.
-
----
-
-## 🛡️ Seguridad y Buenas Prácticas
-Este proyecto sigue estándares de desarrollo limpio:
-- Manejo de excepciones en I/O.
-- Código modular y comentado.
-- Estructura de archivos organizada.
+1. **Clona** este repositorio en tu máquina local.
+2. **Explora** los notebooks para ver la implementación paso a paso.
+3. **Experimenta** cambiando los parámetros del modelo para observar cómo afectan a la predicción.
 
 ---
-Creado con ❤️ por el equipo de desarrollo.
+
+**Hecho por Cyberdark by Whoami-labs.com**
